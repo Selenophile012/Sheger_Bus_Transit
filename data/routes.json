@@ -1,0 +1,101 @@
+[
+    {
+        "id": 1,
+        "number": "01",
+        "name": "Bole - Piazza",
+        "from": "Bole",
+        "to": "Piazza",
+        "areas": [
+            "Bole",
+            "Mexico",
+            "Stadium",
+            "Piazza"
+        ]
+    },
+    {
+        "id": 2,
+        "number": "02",
+        "name": "Megenagna - Mexico",
+        "from": "Megenagna",
+        "to": "Mexico",
+        "areas": [
+            "Megenagna",
+            "Bole",
+            "Stadium",
+            "Mexico"
+        ]
+    },
+    {
+        "id": 3,
+        "number": "03",
+        "name": "Kazanchis - Merkato",
+        "from": "Kazanchis",
+        "to": "Merkato",
+        "areas": [
+            "Kazanchis",
+            "Piassa",
+            "Merkato"
+        ]
+    },
+    {
+        "id": 4,
+        "number": "04",
+        "name": "CMC - Megenagna",
+        "from": "CMC",
+        "to": "Megenagna",
+        "areas": [
+            "CMC",
+            "Summit",
+            "Megenagna"
+        ]
+    },
+    {
+        "id": 5,
+        "number": "05",
+        "name": "Jemo - Mexico",
+        "from": "Jemo",
+        "to": "Mexico",
+        "areas": [
+            "Jemo",
+            "Tor Hailoch",
+            "Mexico"
+        ]
+    },
+    {
+        "id": 6,
+        "number": "06",
+        "name": "Gerji - Piazza",
+        "from": "Gerji",
+        "to": "Piazza",
+        "areas": [
+            "Gerji",
+            "Bole",
+            "Stadium",
+            "Piazza"
+        ]
+    },
+    {
+        "id": 7,
+        "number": "07",
+        "name": "Ayat - Megenagna",
+        "from": "Ayat",
+        "to": "Megenagna",
+        "areas": [
+            "Ayat",
+            "CMC",
+            "Megenagna"
+        ]
+    },
+    {
+        "id": 8,
+        "number": "08",
+        "name": "Sar Bet - Merkato",
+        "from": "Sar Bet",
+        "to": "Merkato",
+        "areas": [
+            "Sar Bet",
+            "Mexico",
+            "Merkato"
+        ]
+    }
+]

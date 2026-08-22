@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Sheger Transit</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="header-content">
+
+            <div class="brand">
+                <h1>Sheger Transit</h1>
+
+                <p>
+                    Find Addis Ababa bus routes and save your favourites.
+                </p>
+            </div>
+
+            <div class="search-box">
+
+                <label for="search">
+                    Search routes
+                </label>
+
+                <input
+                    id="search"
+                    type="search"
+                    placeholder="Search by route, destination or area..."
+                    autocomplete="off"
+                >
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <section
+            id="routes"
+            aria-labelledby="routes-heading"
+        >
+
+            <div class="section-heading">
+
+                <h2 id="routes-heading">
+                    Bus Routes
+                </h2>
+
+                <p id="status" aria-live="polite">
+                    Loading routes...
+                </p>
+
+            </div>
+
+            <div id="route-list"></div>
+
+        </section>
+
+
+        <aside
+            id="favourites"
+            aria-labelledby="favourites-heading"
+        >
+
+            <h2 id="favourites-heading">
+                Favourite Routes
+            </h2>
+
+            <div id="favourite-list">
+                <p>No favourite routes yet.</p>
+            </div>
+
+        </aside>
+
+
+        <section
+            class="booking-section"
+            aria-labelledby="booking-heading"
+        >
+
+            <h2 id="booking-heading">
+                Book a Trip
+            </h2>
+
+            <p>
+                Enter your information to simulate a transit booking.
+            </p>
+
+            <form
+                id="booking-form"
+                novalidate
+            >
+
+                <label for="name">
+                    Name
+
+                    <input
+                        id="name"
+                        name="name"
+                        type="text"
+                        autocomplete="name"
+                        required
+                    >
+
+                </label>
+
+
+                <label for="phone">
+                    Phone
+
+                    <input
+                        id="phone"
+                        name="phone"
+                        type="tel"
+                        placeholder="09xxxxxxxx"
+                        autocomplete="tel"
+                        required
+                    >
+
+                </label>
+
+
+                <label for="route-select">
+                    Route
+
+                    <select
+                        id="route-select"
+                        name="route"
+                        required
+                    >
+
+                        <option value="">
+                            Select a route
+                        </option>
+
+                    </select>
+
+                </label>
+
+
+                <p
+                    id="form-error"
+                    class="error"
+                    aria-live="polite"
+                ></p>
+
+
+                <button
+                    id="book-button"
+                    type="submit"
+                >
+                    Book Trip
+                </button>
+
+            </form>
+
+
+            <div
+                id="confirmation"
+                class="confirmation"
+                aria-live="polite"
+                hidden
+            ></div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            Sheger Transit · Addis Ababa
+        </p>
+
+    </footer>
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>
